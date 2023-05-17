@@ -1,0 +1,63 @@
+<!--sort.html-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Array Sorting Example</title>
+		<script type="text/javascript" src="sort.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<h1>Bradley's CSCI 450 Website</h1>
+			</div>
+			<div id="content">
+				<nav>
+					<h3>Navigation</h3>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Paper.html">Tech Trends Paper</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+						<li><a href="layout.html">Layout Practice</a></li>
+						<li><a href="chapter04.html">Color Buttons</a></li>
+						<li><a href="helloworld.php">Hello World</a></li>
+						<li><a href="ButtonMove.html">Moving Buttons</a></li>
+						<li><a class="selected" href="sort.html">Sort Demo</a></li>
+						<li><a href="businesscard.html">Card Demo</a></li>
+						<li><a href="dynamiccarddemo.html">Dynamic Card Demo</a></li>
+						<li><a href="keypress.html">KeyPress Demo</a></li>
+						<li><a href="jquerydemo.html">JQuery Demo</a></li>
+						<li><a href="audiochanger.html">Audio Demo</a></li>
+						<li><a href="prime.html">Prime Numbers</a></li>
+						<li><a href="livesearch.html">Live Searching</a></li>
+						<li><a href="vowelsort.php">Vowel Sort</a></li>
+						<li><a href="personrecords.php">Person Records</a></li>
+						<li><a href="topiclist.php">Forums</a></li>
+					</ul>
+				</nav>
+				<div id="main">
+					<h1>Sorting String Arrays</h1>
+					<p>Enter two or more names in the field below,
+					and the sorted list of names will appear in the
+					textarea.</p>
+
+					<form name="theform" onsubmit="return false">
+						Name:
+						<input type="text" name="newname" size="20">
+						<input type="submit" name="addname" value="Add" onclick="SortNames();">
+						<br>
+						<h2>Sorted Names</h2>
+						<textarea cols="60" rows="10" name="sorted">The sorted names will appear here.</textarea>
+					</form>
+				</div>
+			</div>
+			<div id="footer">
+				USC Upstate CSCI450 Summer 2022
+			</div>
+		</div>
+	</body>
+	<footer>
+		Created by Bradley Allen
+	</footer>
+</html>

@@ -1,0 +1,7 @@
+/*scroll.css*/
+#wordDisplay ul {
+	height: 500px;
+	width: 90%;
+	overflow: hidden;
+	overflow-y: scroll;
+}

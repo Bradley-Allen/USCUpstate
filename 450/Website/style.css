@@ -1,0 +1,83 @@
+/*style.css*/
+
+body {
+	background-color: #EEE;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	line-height: 50px;
+}
+
+footer {
+	font-family: Helvetica, Arial, sans-serif;
+	position: fixed;
+	bottom: 0;
+}
+
+aside {
+	font-style: italic;
+}
+
+#container {
+	background-color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	background-color: #32ab87;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+#content {
+	padding: 10px;
+}
+
+nav {
+	width: 13%;
+	float: left;
+	margin-left: 2%;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 1%;
+	line-height: 2.5;
+}
+
+nav .selected {
+	font-weight: bold;
+	color: red;
+}
+
+#main {
+	width: 80%;
+	float: right;
+}
+
+#main .inpagenav {
+	color: grey;
+	line-height: 100px;
+}
+
+#main .mailme {
+	font-weight: bold;
+}
+
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: #999999;
+	color: white;
+	text-align: right;
+}
